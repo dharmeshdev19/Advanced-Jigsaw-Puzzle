@@ -1,0 +1,198 @@
+/* ============  BASIC STYLING  ============ */
+
+body {
+	background: #F6F6F6 url(../_img/body_bg.jpg) top center;
+	font-family: Aller, sans-serif;
+}
+
+
+#wrapper{
+	width: 1200px;
+	background-color: white;
+	/*border: 2px solid black;*/
+	margin: 10px auto;
+	height: 730px;
+	padding: 0 15px;
+	box-shadow: 2px 2px #ddddd;
+}
+
+
+h1{
+	font-family: Garamond, serif;  /* add font stack */
+	font-size: 36px;
+	font-weight: bold;
+	color: #384a5c;
+	text-align: center;
+	text-shadow: 1px 0 0 #000;
+	margin: 15px 0;
+}
+
+h2{
+	font-family: Garamond, serif;  /* add font stack */
+	font-size: 24px;
+	font-weight: bold;
+	color: #384a5c;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+
+h3{
+	font-size: 18px;
+	font-weight: bold;
+	color: #373737;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+/* ============  LEFT SIDE  ============ */
+
+#left_side{
+	/*background-color: bisque;*/
+	float: left;
+	width: 900px;
+	margin-right: 20px;
+}
+
+
+#puzzle_container{
+	/*background-color: aliceblue;*/
+	width: 900px;
+	height: 300px;
+	padding-bottom: 45px;
+}
+
+
+
+
+#puzzle_container ul li{
+	float: left;
+	width: 150px;
+	height: 150px;
+	cursor: pointer;
+}
+
+#control_buttons_container{
+	height: 100px;
+	background-color: white;
+}
+
+
+.control_button{
+	padding: 0 70px;
+	height: 55px;
+	background-color: #4c6a9b;
+	font-family: Aller, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: white;
+	text-transform: uppercase;
+	border: none;
+	text-align: center;
+	line-height: 55px;
+	cursor: pointer;
+	margin-right: 15px;
+}
+
+.control_button:hover{
+	background-color: #4878c6;
+}
+
+/* ============  RIGHT SIDE  ============ */
+
+#right_side{
+	/*background-color: lightgray;*/
+	float: right;
+	width: 261px;
+}
+
+
+
+#timer_container{
+	background-color: #1d1e20;
+	height: 134px;
+	color: #FFFFFF;
+	margin-bottom: 20px;
+}
+
+.time_circles > div > h4{
+	font-family:Lato, Calibri, Candara, "Myriad Pro", "Nimbus Sans L" , "Segoe UI", "Trebuchet MS", "Helvetica Neue",Helvetica, Arial, sans-serif;	
+	font-weight: bold;
+} 
+
+.time_circles > div > span{
+	font-family: Cambria, "Palatino Linotype", Palatino,"Hoefler Text", Utopia, "Liberation Serif", "Nimbus Roman No9 L Regular", Georgia, Times, "Times New Roman", serif;
+	font-weight: bold;
+}
+
+.hidden{
+	display: none;
+}
+
+#categories_container{
+	/*background-color: lightcyan;*/
+	height: 100px;
+	overflow: hidden;
+	height: 280px;
+}
+
+
+#categories_container a{
+	display: block;
+	width: 116px;
+	height: 40px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background-color: #2ecc71;
+	-webkit-box-shadow: 0 4px #15984c;
+	-moz-box-shadow: 0 4px #15984c;
+	box-shadow: 0 4px #15984c;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 40px;
+	text-align: center;
+	color: white;
+	position: relative;
+	margin-bottom: 15px;
+	outline: none;
+	border: none;
+}
+
+#categories_container a:hover{
+	background-color: #56ec96;
+	-webkit-box-shadow: 0 4px #31d275;
+	-moz-box-shadow: 0 4px #31d275;
+	box-shadow: 0 4px #31d275;
+}
+
+
+#categories_container a:active{
+	top: 4px;
+	-webkit-box-shadow: 0 1px #15984c;
+	-moz-box-shadow: 0 1px #15984c;
+	box-shadow: 0 1px #15984c;
+	cursor: pointer;
+}
+
+.button_left{
+	float: left;
+}
+
+.button_right{
+	float:right;
+}
+
+#hint_container{
+	background-color: #e7e7e7;
+	height: 80px;
+	padding: 10px;
+	border: 2px solid black;
+	display: none;
+}
+
+#hint_container .hint_image{
+	max-width: 100%;
+}
